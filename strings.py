@@ -59,19 +59,28 @@ def strings(filename):
             # set index back to head of the string 
 			index = start
 			
-            # 
+            # while string is printable 
 			while canprint == 1:
+                # print Unicode character of the index, space each character with no space 
 				print(chr(data[index]), end = "")
+                # check if next index is a printable character 
 				if isprint(data[index+1]) == False:
+                    # set the last index checked as current index 
 					last = index 
+                    # set canprint boolean to not printable
 					canprint = 0
+                    # print new line 
 					print()
+                #increment index 
 				index += 1
+        # new index is the last index checked + 1
 		index = last + 1
 	f.close()
 	
 if __name__ == '__main__':
+    # usage format
 	if len(sys.argv) != 2:
 		print(f'Usage: python3 {sys.argv[0]} filename', file=sys.stderr)
 		sys.exit()
+    # run strings on first argument
 	strings(sys.argv[1])
