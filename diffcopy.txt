@@ -1672,7 +1672,6 @@ t$(D
 D$XdH3
 T$ L
 t$PH
-"D$cA 
 EgGkKmMPtTYZ0
 MB#F-
 %s, %s, %s, %s,
@@ -2807,7 +2806,6 @@ L;d$8
 |$LD
 H=sIeRt_~5A
 L$@H
-"D$cA
 I9l$
 t$XH
 lu.A
@@ -4198,14 +4196,7 @@ t8Ic
 T$0H
 Lc|$(H
 D$h1
-|$0H
 )D$P
-strrchr
-D$@L
-D$ Mc
-D$ dH
-strcmp
-|$ L
 A]A^
 %s.%d
 D$ I
