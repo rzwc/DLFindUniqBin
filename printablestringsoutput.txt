@@ -1,0 +1,157 @@
+/lib64/ld-linux-x86-64.so.2
+libc.so.6
+strcpy
+exit
+optind
+perror
+__stack_chk_fail
+unlink
+popen
+getpid
+pread64
+calloc
+__errno_location
+open64
+memcmp
+__fprintf_chk
+fputs
+fclose
+strtoul
+malloc
+getenv
+optarg
+stderr
+system
+optopt
+getopt_long
+pclose
+fwrite
+mkstemp64
+fdopen
+__cxa_finalize
+__sprintf_chk
+memmove
+sync
+pwrite64
+strerror
+__asprintf_chk
+__libc_start_main
+ferror
+setenv
+free
+__fxstat64
+GLIBC_2.3.4
+GLIBC_2.8
+GLIBC_2.4
+GLIBC_2.2.5
+_ITM_deregisterTMCloneTable
+__gmon_start__
+_ITM_registerTMCloneTable
+'s:/
+mattrib -h -r -s %s 2>/dev/null
+mmove -D o -D O s:/%s %s
+%s: warning: unable to move %s
+mattrib +r +h +s s:/%s
+mattrib +r +h +s %s
+%s: %s: %s
+/tmp
+At least one specified option not yet implemented for this installer.
+TMPDIR
+%s: not a block device or regular file (use -f to override)
+%s//syslinux-mtools-XXXXXX
+MTOOLS_SKIP_CHECK=1
+MTOOLS_FAT_COMPATIBILITY=1
+drive s:
+  file="/proc/%lu/fd/%d"
+  offset=%llu
+MTOOLSRC
+mattrib -h -r -s s:/ldlinux.sys 2>/dev/null
+mcopy -D o -D O -o - s:/ldlinux.sys
+LDLINUX SYS
+failed to create ldlinux.sys
+mattrib +r +h +s s:/ldlinux.sys
+%s: warning: failed to set system bit on ldlinux.sys
+mattrib -h -r -s s:/ldlinux.c32 2>/dev/null
+mcopy -D o -D O -o - s:/ldlinux.c32
+failed to create ldlinux.c32
+mattrib +r +h +s s:/ldlinux.c32
+%s: warning: failed to set system bit on ldlinux.c32
+impossibly large number of clusters on an FAT volume
+impossible sector size
+unknown OEM name but claims NTFS
+impossible cluster size on an FAT volume
+missing FAT32 signature
+less than 65525 clusters but claims FAT32
+less than 4084 clusters but claims FAT16
+more than 4084 clusters but claims FAT12
+zero FAT sectors (FAT12/16)
+zero FAT sectors
+negative number of data sectors on an FAT volume
+invalid media signature (not an FAT/NTFS volume?)
+unsupported sectors size
+NTFS    
+MSWIN4.0
+MSWIN4.1
+FAT12   
+FAT16   
+FAT32   
+FAT     
+Subdirectory path too long... aborting install!
+Subvol name too long... aborting install!
+Usage: %s [options] device
+  --offset     -t  Offset of the file system on the device 
+  --directory  -d  Directory for installation target
+Usage: %s [options] directory
+  --device         Force use of a specific block device (experts only)
+Usage: %s [options] <drive>: [bootsecfile]
+  --directory  -d  Directory for installation target
+  --install    -i  Install over the current bootsector
+  --update     -U  Update a previous installation
+  --zip        -z  Force zipdrive geometry (-H 64 -S 32)
+  --sectors=#  -S  Force the number of sectors per track
+  --heads=#    -H  Force number of heads
+  --stupid     -s  Slow, safe and stupid mode
+  --raid       -r  Fall back to the next device on boot failure
+  --once=...   %s  Execute a command once upon boot
+  --clear-once -O  Clear the boot-once command
+  --reset-adv      Reset auxiliary data
+  --menu-save= -M  Set the label to select as default on the next boot
+  --mbr        -m  Install an MBR
+  --active     -a  Mark partition as active
+  --force      -f  Ignore precautions
+%s: invalid number of sectors: %u (must be 1-63)
+%s: invalid number of heads: %u (must be 1-256)
+%s: -o will change meaning in a future version, use -t or --offset
+%s 6.04  Copyright 1994-2015 H. Peter Anvin et al
+%s: Unknown option: -%c
+%s: not enough space for boot-once command
+%s: not enough space for menu-save label
+force
+install
+directory
+offset
+update
+zipdrive
+stupid
+heads
+raid-mode
+version
+help
+clear-once
+reset-adv
+menu-save
+active
+device
+t:fid:UuzsS:H:rvho:OM:ma
+short read
+short write
+filesystem type "????????" not supported
+SYSLINUX
+Boot error
+SYSLINUX 6.04 
+ Load error - 
+SYSLINUX 6.04 20191223
+A20 gate not responding!
+ Copyright (C) 1994-2015 H. Peter Anvin et al
+Boot failed: please change disks and press a key to continue.
+PAMS

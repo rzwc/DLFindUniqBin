@@ -1,0 +1,2550 @@
+/lib64/ld-linux-x86-64.so.2
+libc.so.6
+strcpy
+exit
+optind
+perror
+__stack_chk_fail
+unlink
+popen
+getpid
+pread64
+calloc
+__errno_location
+open64
+memcmp
+__fprintf_chk
+fputs
+fclose
+strtoul
+malloc
+getenv
+optarg
+stderr
+system
+optopt
+getopt_long
+pclose
+fwrite
+mkstemp64
+fdopen
+__cxa_finalize
+__sprintf_chk
+memmove
+sync
+pwrite64
+strerror
+__asprintf_chk
+__libc_start_main
+ferror
+setenv
+free
+__fxstat64
+GLIBC_2.3.4
+GLIBC_2.8
+GLIBC_2.4
+GLIBC_2.2.5
+_ITM_deregisterTMCloneTable
+__gmon_start__
+_ITM_registerTMCloneTable
+AWAVAUATUSH
+4$dH
+D$0%
+t3Hc
+[]A\A]A^A_
+u+UH
+ATUSH
+!u6H9
+[]A\
+AUATI
+C H)
+[]A\A]
+AWAVAUATUSH
+H9|$
+D3t$
+([]A\A]A^A_
+X[]A\A]
+PXPH
+ATE1
+]A\A]A^
+ATE1
+]A\A]A^
+/-ZH
+AWAVAUATUSH
+t8D9
+[]A\A]A^A_
+/-ZI
+/-ZuDA
+AUATUH
+I9,$u
+[]A\A]
+ATUH
+SAPH
+W8H9
+v"H9w0v	H
+[]A\A]
+Z[]A\A]
+ATUH
+T$@M
+t$8H9
+[]A\
+AWAVAUI
+Z[]A\A]A^A_
+[]A\A]A^A_
+'s:/
+mattrib -h -r -s %s 2>/dev/null
+mmove -D o -D O s:/%s %s
+%s: warning: unable to move %s
+mattrib +r +h +s s:/%s
+mattrib +r +h +s %s
+%s: %s: %s
+/tmp
+At least one specified option not yet implemented for this installer.
+TMPDIR
+%s: not a block device or regular file (use -f to override)
+%s//syslinux-mtools-XXXXXX
+MTOOLS_SKIP_CHECK=1
+MTOOLS_FAT_COMPATIBILITY=1
+drive s:
+  file="/proc/%lu/fd/%d"
+  offset=%llu
+MTOOLSRC
+mattrib -h -r -s s:/ldlinux.sys 2>/dev/null
+mcopy -D o -D O -o - s:/ldlinux.sys
+LDLINUX SYS
+failed to create ldlinux.sys
+mattrib +r +h +s s:/ldlinux.sys
+%s: warning: failed to set system bit on ldlinux.sys
+mattrib -h -r -s s:/ldlinux.c32 2>/dev/null
+mcopy -D o -D O -o - s:/ldlinux.c32
+failed to create ldlinux.c32
+mattrib +r +h +s s:/ldlinux.c32
+%s: warning: failed to set system bit on ldlinux.c32
+impossibly large number of clusters on an FAT volume
+impossible sector size
+unknown OEM name but claims NTFS
+impossible cluster size on an FAT volume
+missing FAT32 signature
+less than 65525 clusters but claims FAT32
+less than 4084 clusters but claims FAT16
+more than 4084 clusters but claims FAT12
+zero FAT sectors (FAT12/16)
+zero FAT sectors
+negative number of data sectors on an FAT volume
+invalid media signature (not an FAT/NTFS volume?)
+unsupported sectors size
+NTFS    
+MSWIN4.0
+MSWIN4.1
+FAT12   
+FAT16   
+FAT32   
+FAT     
+Subdirectory path too long... aborting install!
+Subvol name too long... aborting install!
+Usage: %s [options] device
+  --offset     -t  Offset of the file system on the device 
+  --directory  -d  Directory for installation target
+Usage: %s [options] directory
+  --device         Force use of a specific block device (experts only)
+Usage: %s [options] <drive>: [bootsecfile]
+  --directory  -d  Directory for installation target
+  --install    -i  Install over the current bootsector
+  --update     -U  Update a previous installation
+  --zip        -z  Force zipdrive geometry (-H 64 -S 32)
+  --sectors=#  -S  Force the number of sectors per track
+  --heads=#    -H  Force number of heads
+  --stupid     -s  Slow, safe and stupid mode
+  --raid       -r  Fall back to the next device on boot failure
+  --once=...   %s  Execute a command once upon boot
+  --clear-once -O  Clear the boot-once command
+  --reset-adv      Reset auxiliary data
+  --menu-save= -M  Set the label to select as default on the next boot
+  --mbr        -m  Install an MBR
+  --active     -a  Mark partition as active
+  --force      -f  Ignore precautions
+%s: invalid number of sectors: %u (must be 1-63)
+%s: invalid number of heads: %u (must be 1-256)
+%s: -o will change meaning in a future version, use -t or --offset
+%s 6.04  Copyright 1994-2015 H. Peter Anvin et al
+%s: Unknown option: -%c
+%s: not enough space for boot-once command
+%s: not enough space for menu-save label
+force
+install
+directory
+offset
+update
+zipdrive
+stupid
+heads
+raid-mode
+version
+help
+clear-once
+reset-adv
+menu-save
+active
+device
+t:fid:UuzsS:H:rvho:OM:ma
+short read
+short write
+:*3$"
+filesystem type "????????" not supported
+SYSLINUX
+PPPP
+u%8M
+t f=!GPTu
++fRfP
+F}+f`f
+Boot error
+SYSLINUX 6.04 
+fRfP
+Q]fRfPUSf
+]fXfZf
+ Load error - 
+/-Zf
+/-Zu
+PVW 
+fRfP
+fRfPUf!
+t{uJf
+]fXfZ^
+UWVSQR
+;T$0
+<@rD
+rf;T$0
+;T$0
+;T$0r]
+;<$w9
+T$,9
++|$0
+ZY[^_]
+Z0Q!
+SYSLINUX 6.04 20191223
+A20 gate not responding!
+ Copyright (C) 1994-2015 H. Peter Anvin et al
+Boot failed: please change disks and press a key to continue.
+SUVW
+t$ 1
+_^][
+	[]^_
+UWVS
+X[^_]
+D$$0
+	,$+l$
+3W	)
+U*CY@
+PAMS
+	x@c
+.|R.
+u8lE
+t.@F\?l
+#R7G
+N0uGX
+j$PR
+ZPhP
+"P6G
+VBE2k
+O\7dzV
+>VESA
+Df"B)
+< u@
+LMY@qN
+u	4(R
+Gl(P
+)[7R
+T@tEqB
+291u f
+#w=!
+XT\[
+!8'"
+b!X4,Z
+3-_	
+!\+	
+@\\[f5
+m{ Y
+UU0P%
+	8W	4
+8%924|
+j;u0
+1]Yh)U
+'D$(u
+@	Y`%V	
+9"B(
+E";p
+r	x m>hhh
+OPqr
+!<]v
+j.t(
+p9L5
+%!7E
+M	tM	
+j,IJ
+pCfR
+"KH=
+CEC+
+q(%X
+Q!xT#
+@$|_
+'xH%
+tNW)
+#82%2D
+NQH&
+l+Mn
+W)ib
+o8YX!h
++n,#
+'\VZ
+X)t0
+j#<('
+7"yNPV7@
+"01D
+t$(9
+VhSQC
+@ZYUA
+L!|#Z
+l!G6
+)h+Z
+/=*K
+	9|$Yur9t$Uul
+V##0
+<$q	EH
+fqs!a
+#%(m#X[X
+;#XtdK
+je]O
+5L7	
+!fIFe
+|@g=
+ZQXZ
+nQh!
+P!q>W!
+D\!~N
+V@nQ
+}zS>
+`dN!
+#Y%'_
+$l%!
+!d"U
+g4E,4E,8'
+yhkE
+f$r:#@8
+#t(H 
+eTlP
+uOEO
+$8!H
+A0L2
+A,"q&
+Q"qX S
+4#@e
+(0x.
+")*G!O
+s!~B
+qDnEuY^@
+>oW\$$EG"@ 
+WdSAd
+BJXZEy
+PZGn
+F"!?
+LfS_Mu
+H_BHRu
+A,HLD
+o	5B
+R(Ye
+'0 ]A
+E!QN
+W(S'	
+@$i?@
+$!\y
+$)!EE
+u$0"
+Y["	{Z*
+` c{xFf@
+i+#x$!
+/@=`
+,Q,$dO
+!c7+
+ $):
+Mp,L
+En0M
+(u"Y@ Q4
+%9d@J
+hUV<#P
+7!YT
+L$4u
+p&K[
+t$ )
+H4AM
+0<!E4
+&X7tIYV
+U;$[9v
+#4^\
+M),Z
+Y.)	
+Q#98
+ rIf
+]O\]O0
+|~@P
+MR	vQ
+pZ]Y
+X!IW
+QV0#
+n.]@!u
+$9A"ws,
+NPMGJ
+jqS'
+IA"e
+P+RQ
+6up'$(bY
+! K+
+!)08"
+E^"W
+"aHn!
+`E#jx
+QU@!7;
+t:!J
+!Q$w"
+F,"" F4"
+@!'?
+(,fW
+P#TMQ
+D@"Y
+|"UU
+Q "%x+
+$sVF
+6Dk\V
+0f0+t%
+UjF"
+Gn5 
+h"hj
+G,"N9H
+~%H+q$
+Vh	h
+qFJn
+HH^n
+P`IH#"
+p!1 
+#%Ud
+@!kd
+?!2'}
+P("}H;Vou#
+b#u-
+-@O$j
+uFfCx
+"tIn	v
+`		E[	
+@#'A
+"tCE& E
+8P$.
+9	[v
+G`#&
+uwEv
+!AC6[
+!zJ$8
+D$1!
+@f;L
+!	!(	
+"CM*,
+hqH=r
+.@$X
+!?dV
+U!*"
+VxQZ
+"DE!Ck
+#("xr)Ax<f
+#0~D
+8.u,
+[fsU
+Pj}t
+cY!]
+!te#=7H
+;!b+
+K!u7
+S#p9]E&Jg
+l$<"
+)ti!
+BOS(!
+0w!L
+8$P<v3}
+egTt
+9x$	
+G`#]
+!*}3
+PIiW
+4$!2Jt
+E!>8
+Q0FV
+n	2E"}
+"tS#
+3G	E
+Ew?V
+C!2/S
+TPK-
+	bH	!
+uT#\R
+]H&(
+9]\t
+_Q<Q3
+U`A*
+}HA?:
+TA& 	
+damu
+&4X%L
+<MZ9l
+;u!F
+`Q	]
+F!=HRL
+,#7]
+v!rG
+#qYK!W
+K%"NlW
+4@^"#
+xmp("
+H$&u1
+W*\$L#zaPs#
+i$Ca|$
+}~	3i
+0U{;%D K
+"led
+#x?O
+HY[L
+':I_h@
+g#A(,!dN!
+[@-$
+H-$^MP1
+vl$4,
+#V!P7%
+!]"|
+INDXt
+FILEu3KG
+KKFL9
+Kf;1u
+BPp<!~;sf
+('w|
+^P*!y_
+$2[F e
+!]`Zi
+T]!	G
+tUlzL
+-b(j
++@;Y
+RPE.
+*VSV!
+LY"[
+1G)l
+!%rX
+isxis
+t)+a@
+(!aV`
+tudU
+%T$d"
+#t9$
+r*9t
+eX`G
+/Q/HT("}&
+T"-"(l
+_RKBX
+r9F,!
+C$(?!
+|(<@
+PC^d
+VDtp
+!=Zj
+TLTq!}
+R]M%
+\GrH
+e7sC
+	pL!d!
+~!/S
+h;-\
+I%.m 
+8#\-JiI
+rt{;
+sE8cu
+kJS^
+(ej ^
+#E=|J
+#lul
+t\-K
+":$tl"
+t`-AG
+eF	|
+!UG0|3
+"&55GY
+Xxn{&
+(4!A'
+!A'b!B'
+Z!P<!
+uWb(9
+X"Aek
+T't9%
+\L%C<
+<$M>
+M!E;
+b<uo
+|h"$6!V(
+(#d-
+u%!Y
+!l=$
+$XPV
+J,#.
+PdR%4P
+!-j~!
+!wGo
+}-)q
+GNyC
+u	#E
+Q!]RlA61u
+WF #-
+0"`H!
+L(*w
+m|f%D
+^Xj"Y
+$H1"
+5R3F,
+4d!.
+#4J#
+}#K,
+	!5}
+Kt_Q
+<,!=
+BL#6
+"prJ
+&lhd
+I:]$
+mO( 
+&PB.
+u#I_
+~R2O
+!uL l
+uz'a
+h!W-@
+t	-P
+@u-(
+(W(!
+fT/!
+Z"@9
+|z6J	%
+uU{K
+Z[*r
+M,EA
+&uYf	
+<$XFSB$
+l,%P
+8Kv<
+8Dxb
+"DH7
+9xSX\
+!	<B
+WD$*
+ao)[	
+[^+&
+B`A*,l
+(YB]#
+4$32@
+3L_	@
+t;*f
+xijEO
+$lA%
+qHF[
+\!c$
+Eskl\Z
+$!D!
+E"I/uA4(
+# ~@
+0ZY#
+E#v0
+gz/{
+:M/y)
+/h":
+]u]}u
+=B2DXt
+=3BDX
+;,$svf
+E@*"g
+@u)E
+#"0J
+"h)!
+_M-SXZ
+LT	2
+<$eMQ
+=h(Y7@l
+Id_H
+@f!5n
+'9!_
+t;':
+[^=3DO
+U RMvJ
+K[!!
+TTYDA[
+x%03
+#!;h:h
+im`_
+#AW{'z
+dCR&
+F>Y[
+?O"0T!o
+!eG$ e
+HM9@$
+cB,Y^$
+Pz!.C
+%3#E
+/(#<
+]	6u	6]
+.8e!
+&$]Or
+!9zV#O
+Y[f=
+$a 6~
+OZnI	SS
+*@r,
+.(/I
+p|5R
+rGtCL
+M,zE
+05gC
+nM}M6-~e 6-~t|
+"ECAJ
+Y]$OC
+#WCt
+"Bx@
+t+Jt(f
+;#YCC%YC
+	SRP
+dUz,;
+,@ aG05
+uJf!_
+K.y<
+QlqZ4
+Q4-$
+tE"%)
+!=)Q
+I|')x&
+&_[@G!U)
+x#U)fM
+\G"i)
+Gx8)q
+@t@x
+|VCD
+!gR1
+]"I)"-
+t7	'
+Y[+9
+#$\uQ
+p@Pn
+5!zAl
+1EQ(
+l?Qw4
+M'5RQ=
+!-r9O
+QjlE
+Krqt
+ZdP WC$
+ZYNu
+9,$t
+v$T 
+!W0k
+Ou!}
+\+q$
+Wp!4
+iLGu
+RPUV
+YsOI[G!"
+y`t$
+5&E 
+):	h(
+^+O4
+upNaoVYo
+wWN)
+uAR-
+Y-8"
+TwPV"
+F#xk
+<$C`
+p#!%
+$&'n
+*&'`
+*&'R
+*&'D
+*%'6
+?v*{
+Xqv*
+PzCP
+#7n5
+.j(	!
+>h"N
+p'+1+J
+a9)m
+p@3!
+H#R!k
+X@h"Pw
+2rEX
+Y,P~2
+AiQ%
+.7d|
+G^	;^(
+"01X+""'
+,nza6nz(
+0\a!
+kA(E
+\#}Z,/
+f#G5f#
+R#L@!
+B}\)
+zmI3
+~73y~
+@"5[/
+&|v&
+!!|U
+!tIS
+!<b!
+$9x$}
+SUVW
+H|$x~Wk
++a|!
+DF||@
+	4@`
+<Lt3
+<Pt4<X
+B49<	
+O(! 
+Y98'L
+*"!K_Lb
+Pu\N
+(9_h~R
+9T$0v
+ @BW
+@LlU
+@}QR
+1yh(J
+1wz89lW
+D*fF
+@!eC
+-AIhQH$l
+NoY[
+O (~
+|$LB
+MIo@p#$c
+~Bk>
+;D$4s
+#C@Q
+DUdOy
+7!6,H
+h`}M
+}QP!
+/ybH!')
+p|'	-
+;0u`
+6#|!
+b|;R	
+#f9go
+ntPR
+'x=E	R
+)d	!
+]l{4
+k|H$
+LW!&X
+p !Z`
+-Tf!
+t#jwP
+[ !]
+y&?c
+Z** 2
+	$Fc
+P>D5!b
+!=&#
+_rpd
+$u^\
+}!V0z
+)!!Ac
+fawR
+Dt% 
+(;4$!
+(UPR
+(!WZW
+l#PN
++!5:
+)}H|
+p{(hF%@3(UM
+Z)Y$5
+0LpR
+ELFu9
+H"T2
+|F'	
+	@=X&
+J}P(jJ
+'Q	'
+"rdt
+*t	V[
+r.[+
+=Tk[
+v4TZ
+!Q'4
+5 !}
+4X*d4
+1!w$
+,pLr/
+L<!z/
+}J N
+-0E3.
+u"&))
+tVX[
+]X7"[~1
+'J$f
+f,=Td,
+SV.@
+#4;i
+| !QN
+r*SR
+x@^"
+T#N+
+*e$1
+$ZuP
+"H&R
+tn"l
+/|i!
++P-*
+V\l$
+42HdR
+ds]R
+q&\'
+P%V&TTX]LbS
+"`(HA`
+ !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`8|
+s{|}~
+EEEIII
+OUUY
+AIOU
+abcdefghijklmnopqrstuvwxyz
+YG	AH
+%$%a%b%V%U%c%Q%W%]%\%[%
+%4%,%
+%<%^%_%Z%T%i%f%`%P%l%g%h%d%e%Y%X%R%S%k%j%
+)"a"
+e"d" #!#
+4It appears your computer has only %dK of low ("DOS") RAM.
+This version`
+Syslinux needs
+	to boot.  If{
+ ge	
+message in error, hold down@
+e Ctrl key while
+	ake
+_DMI_
+_SM_
+SYSVENDOR=h
+PRODUCT=
+RSION
+9ILY
+MBA@	W
+BIO'
+$	.c32
+Couldn'A0l
+PATH
+dc)loa
+runr532
+/u$/
+_BHRfS_M
+btrfs: sV>ch
+fou_-enc
+%ptX
+nN2ue.
+eHrX;9
+no subvol
+kB9em
+(nY>:
+devicHCl
+ %04x %sV
+EDD9
+02x*
+N-2_R`_g
+0scbM?k
+ >= 
+s_c\"
+t - *u
+=Mj,,
+<f]*t
+J:t05
+	%X'l
+@:K0's |6	a EXT2/3/4 flqDJU3!
+m%-r
+staH9P
+'id*
+Z.cf
+x%sd
+NTFS    
+MSWIN4.0
+tfs1d
+e_}V_Al(|B
+J f	
+mC*cheH
+MFTM
+	t8_
+8*2|
+ ?! $INDEX_ALLOCATK
+ is|4E
+lH^^hidUs.,
+dex. AbPhu
+E4_L5H$(
+l	)t,-
+Nm=iJ
+]tup`.
+avQT.
+(0:A
+#ffL
+uD#'h
+-Om1_Tz(=
+20190206.bf6db5b4+dfsg1/N e/
+,Jy.c\_
+Q(%sA
+D	ApAz:
+vfli
+#:ah
+?%pY1_
+RROR,(x
+right
+2ll)
+micV
+,ablWHb
+U]?fN}mbH
+FAIL:
+n 'h
+wasTBP+T
+depX
+main
+B$4#
+skLc0:,
+!cKiG
+"QM}U
+	h!q`
+e~- 
+@_?8
+-^1g
+e^C/
+Z];G]#E
+x{(|
+-}	1^
+]!j]i
+sm10
+`~U/
+S	,~
+}m[(}
+	Q^E
+^+z3
+a|A]
+R(>!
+,}$5^	
+]'+!
+8P '
+F(}&
+{]y=
+6)>/
+]Mh)~ 
+-<1^
+!Y`})=&
+#(}/
+1]Wy
+AQV]
+?^	 ~(}
+]	h)}
+$\0}
+s^91
+,|'"
+9x(|*
+|#(>&
+()}5,MGg]
+Y%}$}^'
+k]%G)=!
+J]	\)
+!=)%
+	L	*}?
+/w]	u)<
+]k`)=
+Bi-}
+]-i*<
+^]}s
+]C\!
+aYh(}N
+longjmp
+__textnr_len
+stpcpyL
+bss_vmaA
+ashldi3
+elf_gnu_h@
+dria!
+ws_h!
+d"E|s
+ev!yZd!
+nforce_'`\w
+divp
+ack16%
+\low!x[#
+q_ne
+!pyx
+#lm&
+\h @
+do_E
+irq!DeA
+l	:i
+Fge#Xj
+p	"c"0i
+i!lQ)cN
+)M&t|
+STACK_LENm
+ui),
+S{!BufJ
+buge)
+cheH
+z3erY
+KbdMap
+KernelNami
+(<b\,H+
+f!q~bH
+u'pD
+MPoQ
+balA
+gen)v
+3ro@
+`O]_to
+&T1i^o@@H
+lyh*
+#up(\
+Q.p#
+!jyoH
+s!dqQfc
+vsnprintm)r
+g[ptr
+NTOP
+_cmi
+aoJDgse
+resX7
+idle(D
+di4(
+UQeF\B
+chLb
+lzo1IHe&
+=asZNaf
+t6)p
+PXERetrye
+fflFcsi
+!clVGA
+munt
+chHI}"nC#maxp
+3+xna
+,ecbPEx
+(	OrigFDCTabPtq
+Z|iv
+ive#(x+8
+,perEWm@4#7
+ion)
+-d*UJd*
+ktrrd=l
+B_aX
+#Xyf
+_vga'
+mP|p\
+v?lz#
+c	0FBrIn!
+abl)
+QeFD
+O far
+trlx
+py,L
++gnH
+vE&d
+S[disE%y
+ll.h
+_ka]
+=Out|i|R
+ESDI
+spawn_
+RUfM!
+id50
+gT)+
+twar*L
+-eeh
+0'D($
+cEftW
+!\s$
+#t,(l
+*mu#h8pzH
+hook.
+;'_!chr.X
+dIvs
+D!+%eNu
+[e-l
+resolve'
+	nr0
+m	>e
+5"(1!y
+gT#L
+g"Ha"
+Y`Hd
+!dHj
+!VP"
++(@P
+"la"<L"
+"lR"
+"\h"
+7"MMCL
+"l^"=gMM
+Ol<L
+(<]`
+mFg)=
+"\r"
+)gw(iS
+1"}k
+"mW?M
+"}xIM
+.\O*
+p2kY
+?90p
+ 7[O
+Ws$u
+)*`JB
+Lwtdh
+S~;t
+:X.}~
+lkGg-
+5R8R8@
+CztB
+1h]m
+E	&W
+CmB\
+M>b8
+diKG
+raVLq
+c%Utu6
+~[(a
+CPU=
+, World!-|
+FSUUID=
+& R)
+>X8~
+R>!]
+*y\'
+"|%l
+"\%l
+c<V|Y
+R%Guua
+v 96P$
+%92=
+qD6	
+CP\)
+5?/}
+N1*k
+,%UtuR}
+parse_image_type
+strncmp
+strcpy
+load_kernel
+strncpy
+execute
+findpath
+fclose
+default_cmd
+ConfigName
+_kaboom
+dev_ansiserial_w
+dev_stdcon_r
+openconsole
+__syslinux_set_serial_console_info
+syslinux_getadv
+syslinux_setadv
+syslinux_adv_write
+setjmp
+kbd_shiftflags
+__ms_timer
+get_key
+strstr
+fputs
+getscreensize
+BIOSName
+copyright_str
+fputc
+memmove
+syslinux_banner
+strchr
+realloc
+__syslinux_ipappend_strings
+__divdi3
+SysAppends
+__syslinux_derivative_info
+fgets
+skipspace
+strtoul
+KernelName
+atoi
+atoll
+loadfont
+loadkeys
+DisplayCon
+NoHalt
+PXERetry
+__ctypes
+FlowOutput
+FlowInput
+FlowIgnore
+SerialPort
+BaudDivisor
+sirq_cleanup_nowipe
+sirq_install
+write_serial_str
+path_add
+SendCookies
+http_bake_cookies
+open_config
+config_cwd
+chdir
+strcmp
+strnlen
+vsnprintf
+console_color_table
+console_color_table_size
+__syslinux_adv_ptr
+__syslinux_adv_size
+firmware
+do_sysappend
+create_args_and_load
+unload_modules_since
+longjmp
+realpath
+mangle_name
+start_ldlinux
+strerror
+open_file
+syslinux_memory_map
+syslinux_add_movelist
+this_fs
+StackBuf
+syslinux_shuffle_boot_rm
+syslinux_free_movelist
+syslinux_free_memmap
+initramfs_init
+initramfs_load_archive
+syslinux_boot_linux
+errno
+memcmp
+__rawcon_read
+syslinux_idle
+files
+zero_regs
+call16
+_close_file
+UsingVGA
+DisplayMask
+syslinux_force_text_mode
+VGAFilePtr
+VGAFileBuf
+write_serial
+VGAFileMBuf
+vgadisplayfile
+fgetc
+__syslinux_get_ipappend_strings
+sysappend_strings
+__syslinux_get_derivative_info
+strntoumax
+atol
+zalloc
+creat
+vfprintf
+_fwrite
+getopt
+optind
+optarg
+optopt
+opterr
+getopt_long
+jrand48
+mrand48
+__rand48_seed
+nrand48
+lrand48
+__stack_size
+memccpy
+memchr
+mempcpy
+memmem
+memswap
+perror
+qsort
+seed48
+srand48
+vsscanf
+sys_nerr
+sys_errlist
+strncat
+strndup
+stpncpy
+strntoimax
+strsep
+strpbrk
+strspn
+strcspn
+strtoimax
+strtok
+strtol
+strtoll
+strtoull
+strtoumax
+vprintf
+vsprintf
+vasprintf
+chrreplace
+vbufprintf
+inet_ntoa
+dhcp_pack_field
+dhcp_pack_packet
+dhcp_unpack_field
+dhcp_unpack_packet
+strreplace
+lstrdup
+lmalloc
+suffix_number
+core_getcwd
+fdopendir
+__line_input
+__file_info
+writechr
+dev_stdcon_w
+pollchar
+getchar
+dev_rawcon_r
+dev_rawcon_w
+dev_null_r
+dev_null_w
+__serial_write
+__syslinux_serial_console_info
+dev_serial_w
+__xserial_write
+__ansi_init
+__ansi_putchar
+__ansicon_close
+__ansicon_beep
+__ansicon_open
+__ansicon_write
+dev_ansicon_w
+__ansicon_ops
+pci_set_config_type
+__intcall
+__pci_cfg_type
+get_module_name_from_pcimap
+strlcpy
+zfopen
+get_class_name_from_pci_ids
+get_name_from_pci_ids
+find_pci_device
+gather_additional_pci_config
+pci_readb
+free_pci_domain
+pci_scan
+pci_readl
+get_module_name_from_alias
+__pci_read_write_bios
+pci_readw
+pci_writeb
+pci_writew
+pci_writel
+strtod
+init_fpu
+__udivmoddi4
+disk_int13_retry
+disk_get_params
+lfree
+disk_read_sectors
+disk_write_sectors
+disk_write_verify_sectors
+disk_dos_part_dump
+guid_to_str
+str_to_guid
+disk_gpt_part_dump
+disk_gpt_header_dump
+setup_data_init
+setup_data_add
+setup_data_load
+__udivdi3
+__moddi3
+__umoddi3
+__lshrdi3
+__ashrdi3
+__negdi2
+__ashldi3
+__muldi3
+opendev
+syslinux_add_memmap
+syslinux_init_memmap
+syslinux_scan_memory
+syslinux_compute_movelist
+syslinux_memmap_largest
+syslinux_do_shuffle
+syslinux_dup_memmap
+__syslinux_shuffler_size
+bios_do_shuffle_and_boot
+syslinux_target_memmap
+syslinux_shuffle_boot_pm
+syslinux_memmap_find_type
+syslinux_final_cleanup
+do_raw_shuffle_and_boot
+syslinux_memmap_type
+syslinux_memmap_highest
+syslinux_memmap_find
+syslinux_run_default
+syslinux_run_command
+unload_pxe
+cleanup_hardware
+syslinux_local_boot
+syslinux_run_kernel_image
+floadfile
+fstat
+_fread
+ftell
+zloadfile
+bios_boot_linux
+KeepPXE
+initramfs_add_data
+initramfs_mknod
+initramfs_add_file
+initramfs_add_trailer
+initramfs_load_file
+adler32_z
+adler32
+adler32_combine
+adler32_combine64
+deflateInit_
+deflate
+deflateEnd
+compressBound
+get_crc_table
+crc32_z
+crc32
+crc32_combine
+crc32_combine64
+uncompress2
+inflateInit_
+inflate
+inflateEnd
+uncompress
+_tr_flush_bits
+_length_code
+_dist_code
+_tr_flush_block
+_tr_stored_block
+deflateSetDictionary
+deflateGetDictionary
+deflateResetKeep
+_tr_init
+deflateReset
+deflateSetHeader
+deflatePending
+deflatePrime
+deflateTune
+deflateBound
+z_errmsg
+_tr_align
+deflateParams
+deflateInit2_
+zcalloc
+zcfree
+deflateCopy
+deflate_copyright
+_tr_tally
+zlibVersion
+zlibCompileFlags
+zError
+inflateResetKeep
+inflateReset
+inflateReset2
+inflateInit2_
+inflatePrime
+inflate_table
+inflate_fast
+inflateGetDictionary
+inflateSetDictionary
+inflateGetHeader
+inflateSync
+inflateSyncPoint
+inflateCopy
+inflateUndermine
+inflateValidate
+inflateMark
+inflateCodesUsed
+inflateBackInit_
+inflateBack
+inflateBackEnd
+inflate_copyright
+__file_close
+__file_get_block
+zopen
+__ctors_start
+__ctors_end
+__dtors_start
+__dtors_end
+ldlinux.c32
+UWVSQ
+Z[^_]
+UWVS
+[^_]
+UWVS
+[^_]
+UWVSQ
+UWVSQ
+Z[^_]
+UWVS
+D$$P
+[^_]
+UWVS
+D$$P
+GF9t$$
+D$41
+D$09
+D$09
+D$0G9|$$
+D$09
+9l$0
+D$0G9|$$
+4[^_]
+UWVSS
+Z[^_]
+UWVS
+D$4P
+|$$t
+D$"u
+QPRW
+[^_]
+UWVS
+[^_]
+UWVS
+u	RU
+[^_]
+UWVSQ
+Z[^_]
+UWVS
+[^_]
+UWVS
+D$$j
+ <ft
+ <nu
+rt&1
+T$ 1
+[^_]
+UWVS
+[^_]
+UWVS
+[^_]
+WVSQ
+Z[^_
+t(WVQ
+UWVSS
+Z[^_]
+UWVS
+[^_]
+UWVS
+[^_]
+UWVS
+[^_]
+UWVS
+[^_]
+UWVS
+?.uX
+<$	u
+L[^_]
+UWVS
+D$ )
+G$<1
+L$lf
+L$Df
+T$Hf
+T$Jf
+T$Lf
+L$`f
+L$lf
+D$X1
+D$DP
+x[^_]
+UWVS
+$[^_]
+UWVS
+[^_]
+UWVS
+[^_]
+[^_]
+UWVS
+D$'P
+$t	1
+F(%*
+([^_]
+XZ[^_
+XZ[^
+'< v#
+UWVSS
+Z[^_]
+UWVS
+8:u&
+[^_]
+UWVS
+<-uHF
+GE8D$
++D$ 
+[^_]
+UWVS
+[^_]
+UWVS
+9T$(
++D$(9
+[^_]
+UWVS
+[^_]
+L$ )
+ [^_
+UWVS
+[^_]
+UWVSQ
+Z[^_]
+UWVS
+$[^_]
+UWVS
+[^_]
+WVSS
+Z[^_
+UWVSS
+Z[^_]
+UWVS
+<*t'
+	<Lu6
+<PtF
++D$(
+L$8X9
+;<]tC<-
+T$8B
+9t$4tA
+;T$ t
+T$$1
+X[^_]
+UWVSS
+YZ[^_]
+UWVS
+[^_]
+UWVS
+[^_]
+UWVS
+$)L$
+[^_]
+UWVS
+[^_]
+UWVS
+[^_]
+WVSQ
+Z[^_
+UWVS
+T$(Ht
+[^_]
+UWVS
+;,$sM
+[^_]
+UWVS
+[^_]
+UWVS
+$9|$
+[^_]
+UWVS
+[^_]
+UWVS
+[^_]
+UWVS
+[^_]
+UWVS
+[tOw 
+N9t$
+@9D$
+	wvkC
+[^_]
+ZYX[^
+UWVSS
+^[^_]
+UWVSS
+94$t
+Z[^_]
+UWVSP
+Z[^_]
+PBI u7
+UWVS
+D$5 
+T$51
+;D$ 
+;D$(
+T$,!
+T$$!
+[^_]
+UWVS
+[^_]
+UWVS
+[^_]
+UWVS
+[^_]
+UWVS
+[^_]
+UWVS
+[^_]
+UWVS
+$[^_]
+UWVS
+D$A*
+T$A1
+;D$(
+;D$0
+T$4!
+T$,!
+[^_]
+UWVS
+0[^_]
+UWVSQ
+Z[^_]
+UWVSQ
+Z[^_]
+UWVSQ
+Z[^_]
+UWVSQ
+X[^_]
+UWVSQ
+X[^_]
+UWVSQ
+X[^_]
+.u%B
+[^_]
+UWVSQ
+Z[^_]
+[^_]
+UWVS
+,[^_]
+UWVS
+[^_]
+UWVS
+8[^_]
+UWVS
+<[^_]
+UWVSS
+Z[^_]
+UWVSQ
+X[^_]
+UWVS
+ [^_]
+UWVS
+[^_]
+[^_]
+[^_]
+[^_]
+WVSQ
+[^_]
+t)9t$
+[^_]
+UWVS
+[^_]
+UWVS
+[^_]
+UWVS
+[^_]
+UWVS
+;D$,
+;l$,s;
++L$,
+L$,)
+t$PP
+D$Pj
+D$Pj
+$;T$
+";T$
+D$Pj
+D$Pj
+.;D$
+L$<At(
+D$\P
+D$Pj
+|$T9,$sK9t$
+D$Pj
+.+L$
+|$T9
+D$Pj
+D$Pj
+d[^_]
+UWVS
+4$Ft
+D$$j
+l$$j
+D$,P
+D$$j
+D$ 1
+0[^_]
+$Z[^
+UWVS
+D[^_]
+UWVS
+t$l)
+l[^_]
+UWVS
+9<$t<
+9<$t
+H;D$
+[^_]
+UWVSS
+Z[^_]
+UWVSS
+Z[^_]
+UWVS
+9,$w
+[^_]
+UWVSQ
+Z[^_]
+UWVS
+;D$,w
+;D$0v
+D$0;T$$s
+9T$(r
+[^_]
+z$2u
+UWVS
+[^_]
+UWVSV
+Z[^_]
+UWVS
+T$8)
+9l$8t
++t$8
+ [^_]
+WVSV
+Z[^_
+UWVS
+[^_]
+UWVS
+at&f
+x$2u&
+HdrSt	1
+D$ f
+T$4u
+D$Lf
+L$Lj
+L$4u
+D$L)
+t$,+t$
+D$Hj
+T$8h
+t$Dj
+t$@P
+D$Hj
+D$Dj
+D$@V
+D$Hj
+D$Hj
+D$@V
+D$Dj
+D$Vf
+D$Tf
+D$Pf
+D$Rf
+D$hf
+D$H1
+$Bt<
+$+T$
+D$Hj
+L$*V
+[^_]
+UWVS
+ZY[^_]
+UWVS
+[^_]
+UWVS
+t~9,$tq
+t$@W
++D$@
+[^_]
+UWVS
+t$@j
+t$Hj
+D$@PR
+D$H+D$@
+[^_]
+UWVSV
+Y[Z[^_]
+UWVS
+[^_]
+UWVS
+8[^_]
+UWVS
+@[^_]
+UWVS
+[^_]
+UWVS
+[^_]
+UWVS
+[^_]
+UWVS
+t$ 1
+9,$t
+H[^_]
+UWVS
+ht;l$
+u	9T$
+94$}
+xp;t$
+4$#|$ 
+<W9|$
+$[^_]
+UWVSS
+$Z[^_]
+UWVSR
+)kp)kl)k\
+X[^_]
+UWVSR
+X[^_]
+UWVS
+B#~4
+Fl+Fp=
+Ft@)
+Vl;T$
+A#V4
+[^_]
+UWVS
+B#~4
++Fpf
+A#V4
+[^_]
+UWVS
+ul+u\
+u	;M\
+[^_]
+u_UWVS
+[^_]
+UWVS
+9F,wI
+J@;D$
+[^_]
+UWVS
+[^_]
+UWVS
+[^_]
+UWVSS
++4$u
+Z[^_]
+UWVSQ
+Z[^_]
+UWVS
+uv:P
+uq:P
+uI:P
+U`)Ut
+[^_]
+UWVS
+t2Hu	
+[^_]
+UWVS
+|$,8
+[^_]
+UWVS
+[^_]
+UWVS
+4$f9
+f9*r"u
+[^_]
+UWVS
+[^_]
+UWVS
+9<$t
+ [^_]
+UWVS
+$[^_]
+UWVS
+|$$G
+9L$ 
++L$ 
++l$$
+DT0B
+\D01
+P[^_]
+UWVSS
+X[^_]
+UWVS
+[^_]
+[^_]
+UWVS
+[^_]
+UWVS
+w*;D$
+[^_]
+UWVSS
+S0Z[^_]
+UWVSQ
+9](t
+Z[^_]
+UWVSS
+Z[^_]
+UWVSS
+Z[^_]
+UWVS
+D$(9
+L$(9T$8v
+|$()|$
+ED;B s	
+ED;B(s	
+tYHt	
+|$ )ED
+u];4$v*
+;4$w
+;4$w
+EXPV
+T$(t
+E\PV
+;4$v*
+D$(#D$
+;4$v*
+D$(#D$
+T$$+T$
++T$$9U0s
+|$$)
+t$ )
+|$ 9
+L$$+L$
++T$$
+9E t
+t$$9p
+L$$+H
+t$4+p
+|$$)
+t,+T$$
+H[^_]
+UWVSS
+Z[^_]
+UWVSS
+Z[^_]
+UWVS
+[^_]
+UWVSQ
+Z[^_]
+UWVS
+[^_]
+UWVS
+w'=A?
+tFHt	
+D$8)D$
+;M`r
+D$,W
+Ed9El
+T$,W
+U,9U0s	
+ML;L$
+ML;L$
+;E0v
+MD)T$
+v!+L$
+<[^_]
+UWVS
+DTL@
+D$L;\$
+L$lf
+tDL@
+r&;D$
+t$$f
++L$D
+t$D)t$@u
+L\Lu
+P9\$
+D$H#
+;D$<t
+T$ )
+[^_]
+UWVS
+T$8#T$
+94$s
+T$<#T$
+94$s@
++|$@9|$
+9T$Ds
+k9T$
+;D$ s
+\$ )
+;D$ 
+H[^_]
+UWVS
+[^_]
+UWVS
+[^_]
+No DEFAULT or UI configuration directive found!
+boot:
+Failed to allocate memory for ADV
+.img
+.bss
+.bin
+[1;36m(reverse-i-search)`': 
+[?7l
+[?25l
+[1;36m(reverse-i-search)
+[0m`%s': %s
+[?25l
+[1G%s 
+[%dA
+[%dC
+[?25h
+[?7h
+%*s%s
+ initrd=%s
+.%s %s%s%s%s
+menu
+label
+title
+default
+hide
+passwd
+shiftkey
+nosave
+onerror
+master
+include
+background
+msgcolor
+msgcolour
+separator
+disable
+disabled
+indent
+begin
+quit
+goto
+exit
+start
+help
+endtext
+totaltimeout
+ontimeout
+allowoptions
+ipappend
+sysappend
+display
+font
+kbdmap
+implicit
+console
+noescape
+nocomplete
+nohalt
+pxeretry
+serial
+path
+sendcookies
+Failed to parse PATH
+Failed to chdir to %s
+.hidden
+.top
+WARNING: No configuration file found
+autoboot
+Automatic boot in # second{,s}...
+Press [Tab] to edit options
+notabmsg
+passprompt
+Password required
+none
+localboot
+kernel
+linux
+fdimage
+comboot
+com32
+config
+width
+passwordmargin
+rows
+tabmsgrow
+cmdlinerow
+passwordrow
+timeoutrow
+helpmsgrow
+helpmsgendrow
+hshift
+vshift
+hiddenrow
+msg%02x
+%s3%d;4%d
+screen
+1;36;44
+unsel
+hotkey
+1;37;44
+hotsel
+1;7;37;40
+scrollbar
+31;40
+cmdmark
+1;36;40
+pwdborder
+30;47
+pwdheader
+31;47
+pwdentry
+timeout_msg
+1;37;40
+1;30;44
+cmdline too long
+%s(): Fail to malloc a buffer to exec %s
+Failed to load COM32 file %s
+ldlinux.c32
+Failed to exec %s: %s
+execute
+Too large for a boostrap (need LINUX instead of KERNEL?)
+Failed to alloc memory for cmdline
+BOOT_IMAGE=%s %s
+quiet
+Loading %s... 
+Loading %s 
+initrd=
+Failed to allocate space for initrd
+Loading %s...
+Booting kernel failed: 
+[15~
+[17~
+[18~
+[19~
+[20~
+[21~
+[23~
+[24~
+3%dm
+4%dm
+%s: error %d
+DNS server returned answer with no data
+Operation not permitted
+No such file or directory
+No such process
+Interrupted system call
+No such device or address
+Arg list too long
+Exec format error
+Bad file number
+No child processes
+Try again
+Out of memory
+Permission denied
+Bad address
+Block device required
+Device or resource busy
+File exists
+Cross-device link
+No such device
+Not a directory
+Is a directory
+Invalid argument
+File table overflow
+Too many open files
+Not a typewriter
+Text file busy
+File too large
+No space left on device
+Illegal seek
+Read-only file system
+Too many links
+Broken pipe
+Math argument out of domain of func
+Math result not representable
+Resource deadlock would occur
+File name too long
+No record locks available
+Function not implemented
+Directory not empty
+Too many symbolic links encountered
+No message of desired type
+Identifier removed
+Channel number out of range
+Level 2 not synchronized
+Level 3 halted
+Level 3 reset
+Link number out of range
+Protocol driver not attached
+No CSI structure available
+Level 2 halted
+Invalid exchange
+Invalid request descriptor
+Exchange full
+No anode
+Invalid request code
+Invalid slot
+Bad font file format
+Device not a stream
+No data available
+Timer expired
+Out of streams resources
+Machine is not on the network
+Package not installed
+Object is remote
+Link has been severed
+Advertise error
+Srmount error
+Communication error on send
+Protocol error
+Multihop attempted
+RFS specific error
+Not a data message
+Value too large for defined data type
+Name not unique on network
+File descriptor in bad state
+Remote address changed
+Can not access a needed shared library
+Accessing a corrupted shared library
+.lib section in a.out corrupted
+Attempting to link in too many shared libraries
+Cannot exec a shared library directly
+Illegal byte sequence
+Interrupted system call should be restarted
+Streams pipe error
+Too many users
+Socket operation on non-socket
+Destination address required
+Message too long
+Protocol wrong type for socket
+Protocol not available
+Protocol not supported
+Socket type not supported
+Operation not supported on transport endpoint
+Protocol family not supported
+Address family not supported by protocol
+Address already in use
+Cannot assign requested address
+Network is down
+Network is unreachable
+Network dropped connection because of reset
+Software caused connection abort
+Connection reset by peer
+No buffer space available
+Transport endpoint is already connected
+Transport endpoint is not connected
+Cannot send after transport endpoint shutdown
+Too many references: cannot splice
+Connection timed out
+Connection refused
+Host is down
+No route to host
+Operation already in progress
+Operation now in progress
+Stale NFS file handle
+Structure needs cleaning
+Not a XENIX named type file
+No XENIX semaphores available
+Is a named type file
+Remote I/O error
+Quota exceeded
+No medium found
+Wrong medium type
+DNS server claims query was misformatted
+DNS server returned general failure
+Domain name not found
+DNS server does not implement requested operation
+DNS server refused query
+Misformatted DNS query
+Misformatted domain name
+Unsupported address family
+Misformatted DNS reply
+Could not contact DNS servers
+Timeout while contacting DNS servers
+End of file
+Error reading file
+Application terminated lookup
+Domain name is too long
+%u.%u.%u.%u
+unknown
+0000
+alias pci:v
+ffff
+Illegal character in GUID!
+Too few GUID characters!
+GPT sig ______________ : '%8.8s'
+GPT major revision ___ : 0x%.4x
+GPT minor revision ___ : 0x%.4x
+GPT header size ______ : 0x%.8x
+GPT header checksum __ : 0x%.8x
+GPT reserved _________ : '%4.4s'
+GPT LBA current ______ : 0x%.16llxx
+GPT LBA alternative __ : 0x%.16llxx
+GPT LBA first usable _ : 0x%.16llxx
+GPT LBA last usable __ : 0x%.16llxx
+GPT LBA part. table __ : 0x%.16llxx
+GPT partition count __ : 0x%.8x
+GPT partition size ___ : 0x%.8x
+GPT part. table chksum : 0x%.8x
+GPT disk GUID ________ : {%s}
+mem=
+vga=
+keeppxe
+070701%08x%08x%08x%08x%08x%08x%08x%08x%08x%08x%08x%08x%08x
+070701%08x%08x%08x%08x%08x%08x%08zx%08x%08x%08x%08x%08x%08x
+TRAILER!!!
+1.2.11
+ deflate 1.2.11 Copyright 1995-2017 Jean-loup Gailly and Mark Adler 
+								
+need dictionary
+stream end
+file error
+stream error
+data error
+insufficient memory
+buffer error
+incompatible version
+incorrect header check
+unknown compression method
+invalid window size
+unknown header flags set
+header crc mismatch
+invalid block type
+invalid stored block lengths
+too many length or distance symbols
+invalid code lengths set
+invalid bit length repeat
+invalid code -- missing end-of-block
+invalid literal/lengths set
+invalid distances set
+invalid literal/length code
+invalid distance code
+invalid distance too far back
+incorrect data check
+incorrect length check
+ inflate 1.2.11 Copyright 1995-2017 Mark Adler 
+error 
+GCC: (Ubuntu 9.2.1-22ubuntu1) 9.2.1 20191130
+.shstrtab
+.gnu.hash
+.dynsym
+.dynstr
+.rel.dyn
+.rel.plt
+.text
+.plt.got
+.rodata
+.ctors
+.dtors
+.data.rel.ro
+.dynamic
+.got.plt
+.data
+.bss
+.comment
+.shstrtab
+.interp
+.note.gnu.property
+.note.gnu.build-id
+.note.ABI-tag
+.gnu.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.rela.plt
+.init
+.plt.got
+.plt.sec
+.text
+.fini
+.rodata
+.eh_frame_hdr
+.eh_frame
+.init_array
+.fini_array
+.data.rel.ro
+.dynamic
+.data
+.bss

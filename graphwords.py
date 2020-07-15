@@ -1,6 +1,6 @@
 import sys
 
-GRAPHNUMBER = 3
+GRAPHNUMBER = 4
 
 def split(word): 
     return [char for char in word]  
@@ -30,14 +30,14 @@ def graphwords(filename):
 				while graphindex < GRAPHNUMBER:
 					str = str + splitword[charindex + graphindex] 
 					graphindex += 1
-				graphedwordsset.add(str)
+				graphedwordsset.add(str.lower())
 				charindex += 1
 		else:
-			graphedwordsset.add(data[index])
+			graphedwordsset.add(data[index].lower())
 		index += 1
 		
 	# open diff.txt to write
-	file = open("graphedwordstest.txt", "a")	
+	file = open("quadgraphedwords.txt", "a")	
     	
     	# for every item in diff set, store in diff.txt
 	for x in graphedwordsset:

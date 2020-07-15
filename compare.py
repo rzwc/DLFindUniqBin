@@ -1,8 +1,5 @@
 # Program used to compare the output between Linux strings and stringlish and store the "bad" output in text file
 
-#find /usr/bin -maxdepth 1 -exec python compare.py {} \;
-
-
 import sys
 
 # Linux strings program written in python
@@ -120,5 +117,7 @@ if __name__ == '__main__':
     
     # for every item in diff set, store in diff.txt
     for x in diff:
-        file.write(x + '\n')   
+    
+        file.write(x + '\n')  
+        
     file.close()
