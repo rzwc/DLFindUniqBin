@@ -1,5 +1,6 @@
 import sys
 
+# 2 = digraphs, 3 = trigraphs, 4 = quadgraphs 
 GRAPHNUMBER = 4
 
 def split(word): 
