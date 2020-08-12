@@ -10,8 +10,6 @@ import tensorflow_datasets as tfds
 from tensorflow import keras
 #ascii 
 #testing
-
-    
 def stringsv2(filename):
 
 	try:
@@ -28,7 +26,7 @@ def stringsv2(filename):
 	data.reverse()
 		
 
-	FILE_NAME = ['stripedteststringoutput.txt']
+	FILE_NAME = ['teststringoutput.txt']
 
 	model = keras.models.load_model('kerasmodelquadgraphs')
 	
@@ -43,7 +41,7 @@ def stringsv2(filename):
 	
 	#	labeled_data_sets.append(labeled_dataset)
 	
-	lines_dataset = tf.data.TextLineDataset('stripedteststringsoutput.txt')
+	lines_dataset = tf.data.TextLineDataset('teststringoutput.txt')
 	#for ex in lines_dataset.take(20):
   #		print(ex)
 	labeled_dataset = lines_dataset.map(lambda ex: labeler(ex, 0))
@@ -78,8 +76,6 @@ def stringsv2(filename):
 	vocab_size = len(vocabulary_set)
 	
 	encoder = tfds.features.text.TokenTextEncoder(vocabulary_set)
-	
-	
 
 	def encode(text_tensor, label):
 		encoded_text = encoder.encode(text_tensor.numpy())
@@ -108,9 +104,6 @@ def stringsv2(filename):
 	pred = model.predict(all_encoded_data)
 	pred_array = []
 	index = 0
-	labeledindex = 0
-	encodedindex = 0
-	
 	while index < len(pred):
 		if pred[index, 0] > pred[index, 1]:
 			pred_array.append(0)
@@ -124,11 +117,11 @@ def stringsv2(filename):
 		numpy_labels = labels.numpy()
 	#print(len(all_encoded_data))
 	#print(encoder.decode(numpy_words))
-	#print("Length of Data: " + str(len(data)))
+	print("Length of Data: " + str(len(data)))
 	#print(len(pred_array))
-	#print("Length of Returned Prediction Array: " + str(len(pred)))
+	print("Length of Returned Prediction Array: " + str(len(pred)))
 	#print(data)
-	#print(pred_array)
+	print(pred_array)
 	index = 0
 	
 	#for ex in all_encoded_data.take(169):
@@ -142,13 +135,7 @@ def stringsv2(filename):
 	#print(encoder.decode(numpy_words))
 	#print(pred_array)
 	result = np.vstack((data, pred_array)).T
-	#print(result[0,1])
-	x = 0
-	print(result[20, 1])
-	while x < len(result):
-		if result[x, 1] == '0':
-			print(result[x,0])
-		x += 1
+	print(result)
 	#print(result[0])
 	#print(pred)
 	#print(len(pred))

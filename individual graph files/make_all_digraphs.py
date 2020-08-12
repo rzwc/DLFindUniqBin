@@ -2,7 +2,7 @@ import sys
 
 ALPHABET = 26
 
-def trigraphwords(filename):
+def digraphwords(filename):
 	try:
         # open binary file to read
 		f = open(filename, 'r')
@@ -14,35 +14,30 @@ def trigraphwords(filename):
 		print(f'{filename}: {e.strerror}', file=sys.stderr)
 		sys.exit()
 		
-	trigraphset = set() 
+	digraphset = set() 
 	firstindex = 0
 	while firstindex < ALPHABET:
 		str = ''
 		str += data[firstindex]
 		secondindex = 0
 		while secondindex < ALPHABET:
-			str = data[firstindex]
+			str = data[firstindex] 
 			str += data[secondindex]
-			thirdindex = 0
-			while thirdindex < ALPHABET:
-				str = data[firstindex] + data[secondindex]
-				str += data[thirdindex]
-				trigraphset.add(str)
-				thirdindex += 1
+			digraphset.add(str)
 			secondindex += 1
 		firstindex += 1
 	# open diff.txt to write
-	file = open("alltrigraphs.txt", "a")	
+	file = open("all_digraphs.txt", "w")	
     	
-    	# for every item in diff set, store in diff.txt
-	for x in trigraphset:
+    	# for every item in digraphset set, store in all_digraphs.txt
+	for x in digraphset:
         	file.write(x + '\n')   
 	file.close()
 
 if __name__ == '__main__':
     # usage format
 	if len(sys.argv) != 2:
-		print(f'Usage: python3 {sys.argv[0]} filename', file=sys.stderr)
+		print(f'Usage: python3 {sys.argv[0]} alphabet', file=sys.stderr)
 		sys.exit()
     # run strings on first argument
-	trigraphwords(sys.argv[1])
+	digraphwords(sys.argv[1])
