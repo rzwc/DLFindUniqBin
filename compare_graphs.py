@@ -44,16 +44,14 @@ def comparegraphs(foundgraphs, allgraphs):
 		allindex += 1
 	
 	# open notpresentgraphs.txt to write
-	file = open("notpresentquadgraphs.txt", "a")	
+	file = open("not_" + f.name, "w")	
     	
     # for every item in notpresent set, store in notpresent.txt
 	for x in notpresentset:
         	file.write(x + '\n')   
 	file.close()
 
-			
-		
-		
+
 if __name__ == '__main__':
     # usage format
 	if len(sys.argv) != 3:

@@ -65,7 +65,7 @@ if __name__ == '__main__':
         print(f'Usage: python3 {sys.argv[0]} filename', file=sys.stderr)
         sys.exit()
         
-    # open file for stringlish
+    # open file for string and stringlish
     for file in sys.argv[1:]:
         try:
             # open binary file to read 
