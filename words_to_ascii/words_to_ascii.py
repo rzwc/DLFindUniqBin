@@ -66,7 +66,7 @@ def wordstoascii(filename):
 		asciiset.add(string)
 		index += 1
 		
-	file = open("ascii" + f.name, 'w')
+	file = open("ascii_coded_" + f.name, 'w')
 	print(bytes([(1 << 7)|abs(50)]))
 	print(128|50)
 	print(0|30)

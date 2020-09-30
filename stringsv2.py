@@ -79,7 +79,7 @@ def stringsv2(filename):
 	all_encoded_data = labeled_dataset.map(encode_map_fn)
 	
 	# introduced new token encoding (0 used for coding) so vocabulary size increases by one
-	vocab_size += 1
+	#vocab_size += 1
 	
 	# use model to predict on encodered data
 	pred = model.predict(all_encoded_data)
