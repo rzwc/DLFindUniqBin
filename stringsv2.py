@@ -105,7 +105,7 @@ def stringsv2(filename):
 	result = np.vstack((data, pred_array)).T
 	
 	# print predictions 
-	print(result)
+	print(result) 
     			
 
 if __name__ == '__main__':
