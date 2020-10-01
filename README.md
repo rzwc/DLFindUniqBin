@@ -8,13 +8,13 @@ Usage: python stringsv2.py file_to_scan_for_strings
 
 Sample file without nonalphanumeric characters: stripedteststringsoutput.txt
 
-Folders:
-cleaning_data_functions: programs used to clean data
-keras_rnn: saved neural network
-sample_files: files used to create training data
-strings_vs_stringlish: comparing strings and stringlish output
-training_data: training data used to train neural network
-word_graphs: functions used to create digraphs, trigraphs and quadgraphs of training data, and compare them
-words_to_ascii: unfinished code to encoding training data to ASCII encoding
+Folders: <br />
+cleaning_data_functions: programs used to clean data <br />
+keras_rnn: saved neural network <br />
+sample_files: files used to create training data <br />
+strings_vs_stringlish: comparing strings and stringlish output <br />
+training_data: training data used to train neural network <br />
+word_graphs: functions used to create digraphs, trigraphs and quadgraphs of training data, and compare them <br />
+words_to_ascii: unfinished code to encoding training data to ASCII encoding <br />
 
 Stringlish can be found at: https://github.com/aycock/stringlish
